@@ -1,0 +1,20 @@
+{
+    "name": "user/php-project-45",
+    "description": "brain-games",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "User\\PhpProject45\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "katgpt",
+            "email": "katgpt2024@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
+}
