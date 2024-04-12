@@ -7,7 +7,9 @@
             "User\\PhpProject45\\": "src/"
         },
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/games/Run.php",
+            "src/games/Even.php"
         ]
     },
     "authors": [

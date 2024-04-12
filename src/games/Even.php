@@ -2,14 +2,29 @@
 
 <?php
 
-$autoloadPath1 = __DIR__ . '/../../../autoload.php'; 
-$autoloadPath2 = __DIR__ . '/../vendor/autoload.php'; 
-if (file_exists($autoloadPath1)) {
-    require_once $autoloadPath1;
-} else { 
-    require_once $autoloadPath2; 
+namespace Src\Games\Even;
+
+use function Src\Games\Run\runGame;
+
+const MAX_NUMBER = 100;
+const GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+function isEven($number)
+{
+    return ($number % 2) === 0;
 }
 
-use function Src\Cli\welcome;
+function parityCheck()
+{
+    $getGuess = function () {
+        $guess = [];
+        $number = rand(1, MAX_NUMBER);
+        $guess['question'] = (string)$number;
+        $correctAnswer = isEven($number) ? 'yes' : 'no';
+        $guess['correctAnswer'] = $correctAnswer;
 
-welcome();
+        return $guess;
+    };
+    
+    runGame(GAME_DESCRIPTION, $getGuess);
+}
