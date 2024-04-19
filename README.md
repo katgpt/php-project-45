@@ -7,3 +7,4 @@ link to brain-even https://asciinema.org/a/2JAn0ptbR5LzLxwVz4f6D27ms
 link to brain-calc https://asciinema.org/a/TnJFrSDXcsS1hfdEgbBtRuXCr
 link to brain-gcd https://asciinema.org/a/kUIGUqHeBMJzJpDfGWnO4y14v
 link to brain-progression https://asciinema.org/a/oPdkb8EbDJqdoX78JOTNl6iPA
+link to brain-prime https://asciinema.org/a/9zUJrsxaGx7pP6TAxY0ZXb40s
