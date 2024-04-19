@@ -12,7 +12,7 @@ const LOOSE_MESSAGE = "Let's try again";
 function runGame($gameDescription, $getGuess)
 {
     line('');
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     line('');
 
     $name = prompt('May I have your name?');
