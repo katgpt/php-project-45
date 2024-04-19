@@ -33,8 +33,7 @@ function runGame($gameDescription, $getGuess)
             break;
         }
     }
-  
+
     $message = $isCorrectAnswer ? WIN_MESSAGE : LOOSE_MESSAGE;
     line("%s, %s!", $message, $name);
 }
-

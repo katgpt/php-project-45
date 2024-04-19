@@ -26,6 +26,6 @@ function runGcd()
 
         return $guess;
     };
-    
+
     runGame(GAME_DESCRIPTION, $getGuess);
 }

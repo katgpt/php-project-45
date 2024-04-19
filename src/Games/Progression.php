@@ -46,9 +46,7 @@ function runProgression()
 
         $guess['question'] = getQuestion($progression, $hidedIndex);
         $guess['correctAnswer'] = (string)$progression[$hidedIndex];
-        
         return $guess;
     };
-    
     runGame(GAME_DESCRIPTION, $getGuess);
 }

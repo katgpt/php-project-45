@@ -32,6 +32,6 @@ function runPrime()
 
         return $guess;
     };
-    
+
     runGame(GAME_DESCRIPTION, $getGuess);
 }
