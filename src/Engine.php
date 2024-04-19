@@ -20,7 +20,7 @@ function runGame(string $gameDescription, \Closure $getGuess)
     line($gameDescription);
     line('');
     $isCorrectAnswer = false;
-    
+
     for ($i = 1; $i <= TRY_COUNT; $i++) {
         $guess = $getGuess();
         line("Question: %s", $guess['question']);
