@@ -7,7 +7,7 @@ use function PhpProject45\Src\Engine\runGame;
 const MAX_NUMBER = 100;
 const GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-function isPrime($number)
+function isPrime(int $number)
 {
     if ($number <= 1) {
         return false;

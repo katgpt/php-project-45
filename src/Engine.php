@@ -9,7 +9,7 @@ const TRY_COUNT = 3;
 const WIN_MESSAGE = 'Congratulations';
 const LOOSE_MESSAGE = "Let's try again";
 
-function runGame($gameDescription, $getGuess)
+function runGame(string $gameDescription, string $getGuess)
 {
     line('');
     line('Welcome to the Brain Games!');
@@ -19,7 +19,8 @@ function runGame($gameDescription, $getGuess)
     line("Hello, %s!", $name);
     line($gameDescription);
     line('');
-
+    $isCorrectAnswer = false;
+    
     for ($i = 1; $i <= TRY_COUNT; $i++) {
         $guess = $getGuess();
         line("Question: %s", $guess['question']);

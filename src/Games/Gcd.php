@@ -7,9 +7,9 @@ use function PhpProject45\Src\Engine\runGame;
 const MAX_NUMBER = 100;
 const GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.';
 
-function gcd($a, $b)
+function gcd(int $a, int $b)
 {
-    return ($a % $b) ? gcd($b, $a % $b) : abs($b);
+    return ((bool)($a % $b)) ? gcd($b, $a % $b) : abs($b);
 }
 
 function runGcd()

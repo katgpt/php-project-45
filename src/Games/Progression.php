@@ -9,7 +9,7 @@ const MAX_DELTA_PROGRESSION = 10;
 const PROGRESSION_LENGTH = 10;
 const GAME_DESCRIPTION = 'What number is missing in the progression?';
 
-function getProgression($start, $delta)
+function getProgression(int $start, int $delta)
 {
     $result = [];
 
@@ -20,7 +20,7 @@ function getProgression($start, $delta)
     return $result;
 }
 
-function getQuestion($progression, $hidedIndex)
+function getQuestion(array $progression, int $hidedIndex)
 {
     $result = '';
     for ($i = 0; $i < count($progression); $i++) {

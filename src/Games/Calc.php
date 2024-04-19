@@ -8,7 +8,7 @@ const MAX_NUMBER = 100;
 const OPERATIONS = ['+', '-', '*'];
 const GAME_DESCRIPTION = 'What is the result of the expression?';
 
-function calculate($number1, $number2, $operation)
+function calculate(int $number1, int $number2, string $operation)
 {
     switch ($operation) {
         case '+':

@@ -7,7 +7,7 @@ use function PhpProject45\Src\Engine\runGame;
 const MAX_NUMBER = 100;
 const GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function isEven($number)
+function isEven(int $number)
 {
     return ($number % 2) === 0;
 }
