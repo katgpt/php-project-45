@@ -9,7 +9,7 @@ const TRY_COUNT = 3;
 const WIN_MESSAGE = 'Congratulations';
 const LOOSE_MESSAGE = "Let's try again";
 
-function runGame(string $gameDescription, Closure $getGuess)
+function runGame(string $gameDescription, \Closure $getGuess)
 {
     line('');
     line('Welcome to the Brain Games!');
