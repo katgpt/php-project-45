@@ -7,7 +7,7 @@ use function PhpProject45\Src\Engine\runGame;
 const MAX_START_PROGRESSION = 100;
 const MAX_DELTA_PROGRESSION = 10;
 const PROGRESSION_LENGTH = 10;
-const GAME_DESCRIPTION = 'What number is missing in the progression?';
+const GAME_DESCRIPTION = "What number is missing in the progression? \n";
 
 function getProgression(int $start, int $delta)
 {

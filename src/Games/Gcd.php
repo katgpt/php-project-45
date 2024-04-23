@@ -5,7 +5,7 @@ namespace PhpProject45\Src\Games\Gcd;
 use function PhpProject45\Src\Engine\runGame;
 
 const MAX_NUMBER = 100;
-const GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.';
+const GAME_DESCRIPTION = "Find the greatest common divisor of given numbers. \n";
 
 function gcd(int $a, int $b)
 {

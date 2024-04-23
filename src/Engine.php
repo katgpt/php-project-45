@@ -11,14 +11,10 @@ const LOOSE_MESSAGE = "Let's try again";
 
 function runGame(string $gameDescription, \Closure $getGuess)
 {
-    line('');
-    line('Welcome to the Brain Games!');
-    line('');
-
+    line("\nWelcome to the Brain Games! \n");
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     line($gameDescription);
-    line('');
     $isCorrectAnswer = false;
 
     for ($i = 1; $i <= TRY_COUNT; $i++) {
