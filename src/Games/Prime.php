@@ -5,7 +5,7 @@ namespace PhpProject45\Src\Games\Prime;
 use function PhpProject45\Src\Engine\runGame;
 
 const MAX_NUMBER = 100;
-const GAME_DESCRIPTION = "Answer 'yes' if given number is prime. Otherwise answer 'no'.\n";
+const GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".' . "\n";
 
 function isPrime(int $number)
 {
