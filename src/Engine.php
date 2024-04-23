@@ -11,7 +11,7 @@ const LOOSE_MESSAGE = "Let's try again";
 
 function runGame(string $gameDescription, \Closure $getGuess)
 {
-    line("\nWelcome to the Brain Games! \n");
+    line("Welcome to the Brain Games!\n");
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     line($gameDescription);

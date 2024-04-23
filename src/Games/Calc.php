@@ -6,7 +6,7 @@ use function PhpProject45\Src\Engine\runGame;
 
 const MAX_NUMBER = 100;
 const OPERATIONS = ['+', '-', '*'];
-const GAME_DESCRIPTION = "What is the result of the expression? \n";
+const GAME_DESCRIPTION = "What is the result of the expression?\n";
 
 function calculate(int $number1, int $number2, string $operation)
 {
