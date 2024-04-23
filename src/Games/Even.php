@@ -5,7 +5,7 @@ namespace PhpProject45\Src\Games\Even;
 use function PhpProject45\Src\Engine\runGame;
 
 const MAX_NUMBER = 100;
-const GAME_DESCRIPTION = "Answer 'yes' if the number is even, otherwise answer 'no'.\n";
+const GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".' . "\n";
 
 function isEven(int $number)
 {
