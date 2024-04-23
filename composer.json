@@ -3,9 +3,6 @@
     "description": "brain-games",
     "license": "proprietary",
     "autoload": {
-        "psr-4": {
-            "User\\PhpProject45\\": "src/"
-        },
         "files": [
             "src/Cli.php",
             "src/Engine.php",

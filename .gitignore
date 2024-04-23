@@ -1,1 +1,5 @@
 /vendor/
+.Makefile.swm
+.Makefile.swn
+.Makefile.swo
+.Makefile.swp
